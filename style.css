@@ -1,0 +1,77 @@
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Стили каркаса блога */
+
+header, footer {
+  background-color: #9debf5;
+  padding: 10px;
+}
+
+main {
+  padding: 10px;
+  background-color: silver;
+}
+
+/* Стили поста */
+
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+
+  font-family: "Montserrat", serif;
+
+  font: italic bold 30px/1 "Montserrat";
+}
+
+.post img {
+  margin: 20px;
+}
+
+/* Стили региона комментариев */
+
+.comment {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.author {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.date {
+	color: silver;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#sub-comment {
+	margin-left: 40px;
+}
+
+/* Стили подвала сайта */
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+
+/* Стили карусели Swiper */
+
+.swiper-slide img {
+	height: 700px; 
+}
+
+/* Стили заголовков */
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+}
